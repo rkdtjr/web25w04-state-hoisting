@@ -6,6 +6,7 @@ function App() {
   const [count2, setCount2] = useState(0)
   return (
     <div>
+      <h1>총합: {count1 + count2}</h1>
       <Counter
         count={count1}
         onIncrement={
